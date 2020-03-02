@@ -46,7 +46,7 @@ Pour déterminer le meilleur chemin, nous faisons comme calcul :
 
 Pour un chemin ABCDEF
 
-Math.Sqrt(Math.Pow(x(B) - x(A), 2) + Math.Pow(y(B) - y(A), 2)); (x2-x1)² + (y1-y2)²
+Math.Sqrt(Math.Pow(x(B) - x(A), 2) + Math.Pow(y(B) - y(A), 2)); (Formule utilisée : (x2-x1)² + (y1-y2)²)
         
 xA et xB représentent respectivement les abscisses de A et B.
 yA et yB représentent respectivement les ordonnées de A et B.
