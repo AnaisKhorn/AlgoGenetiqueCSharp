@@ -40,7 +40,7 @@ namespace WpfApp2
 
 
             var test = me.GetPosition(testCanvas);
-            Ville newVille = new Ville((items.Count + 1), "Ville " + (items.Count + 1), test.X, test.Y);
+            Ville newVille = new Ville((items.Count + 1), "Ville" + (items.Count + 1), test.X, test.Y);
             Canvas.SetLeft(rect, test.X);
             Canvas.SetTop(rect, test.Y);
             Canvas.SetLeft(villInfo, test.X);
